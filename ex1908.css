@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    border: 10px solid;
+    border-color: deepskyblue;
+    height: 50px;
+}
+
+html,
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    border: 10px solid;
+    border-color: gold;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 100%;
+}
+
+aside{
+    border: 10px solid;
+    border-color: darkorchid;
+    width: 20%;
+    height: 100%;
+}
+
+footer{
+    border: 10px solid;
+    border-color: bisque;
+}
+
+.principal{
+    display: flex;
+    flex: 1;
+    width: 100%;
+}
+
+.reparticao1{
+    display: flex;
+    border: 10px solid;
+    border-color: aqua;
+    width: 50%;
+    height: 50%;
+    justify-content: space-evenly;
+    
+}
+
+.reparticao2{
+    display: flex;
+    border: 10px solid;
+    border-color: blue;
+    width: 50%;
+    height: 50%;
+    justify-content: space-evenly;
+}
+
+.reparticao3{
+    border: 10px solid;
+    border-color: fuchsia;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.reparticao4{
+    border: 10px solid;
+    border-color: firebrick;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.caixa1{
+    border: 10px solid;
+    border-color: greenyellow;
+
+}
+
+.caixa2{
+    border: 10px solid;
+    border-color: mediumorchid;
+}
+
+.caixa3{
+    border: 10px solid;
+    border-color: peru;
+}
+
+.caixa4{
+    border: 10px solid;
+    border-color: teal;
+}
+
+.caixa5{
+    border: 10px solid;
+    border-color: yellow;
+}
+
+.caixa6{
+    border: 10px solid;
+    border-color: cyan;
+}
+
+.caixa7{
+    border: 10px solid;
+    border-color: slateblue;
+}
+
+.caixa8{
+    border: 10px solid;
+    border-color: pink;
+}
